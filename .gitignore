@@ -1,0 +1,7 @@
+
+.vs/
+x64/
+
+cuda_test/x64/Debug
+cuda_test/cuda_test.vcxproj.user
+cuda_test/files
