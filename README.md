@@ -86,18 +86,3 @@ X.XXX Billion Interactions / second
 ```
 
 It also writes the final state of the system to the specified binary output file.
-
-## 🧪 Testing and Validation
-
-You can compare the output file against a reference solution for validation.
-
-If you need a Python script to read or visualize the binary files, feel free to ask!
-
-## 📄 License
-
-This project is intended for educational and experimental purposes. No specific license is applied.
-
-## ✍️ Author
-
-Your Name  
-[Optional email or GitHub link]
