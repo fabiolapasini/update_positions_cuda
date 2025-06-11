@@ -18,7 +18,7 @@ Key features:
 .
 ├── main.cu                 # Main CUDA simulation code
 ├── files.h / files.cpp     # I/O functions for reading/writing binary data
-├── timer.h / timer.cpp     # Timer functions for performance measurement
+├── timer.h                 # Timer functions for performance measurement
 ├── files/
 │   ├── initialized_4096    # Example input binary file
 │   └── solution_4096       # Output binary file
