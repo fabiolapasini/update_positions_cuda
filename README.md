@@ -69,8 +69,6 @@ Body 3:  [-0.7168,  0.2139, -0.9674, -0.5142, -0.7255,  0.6084 ]
 Body 4:  [-0.6866, -0.1981, -0.7404, -0.7824,  0.9978, -0.5635 ]
 ```
 
-You can generate these files using a Python script or a separate program. If you'd like a data generator, just ask!
-
 Ensure the total number of `float` values in the file equals:
 
 ```
