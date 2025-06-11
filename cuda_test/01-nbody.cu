@@ -97,7 +97,7 @@ int main(int argc, char** argv) {
 
   // Read initial values into a temporary float vector
   std::vector<float> inputBuffer(nFloats);
-  read_values_from_file(initialized_values, inputBuffer.data(), nFloats);
+  nbody::read_values_from_file(initialized_values, inputBuffer.data(), nFloats);
   std::memcpy(reinterpret_cast<float*>(p), inputBuffer.data(), size);
 
   int threadsPerBlock = 256;
@@ -140,7 +140,7 @@ int main(int argc, char** argv) {
   // Write output data to file
   std::vector<float> outputBuffer(reinterpret_cast<float*>(p),
                                   reinterpret_cast<float*>(p) + nFloats);
-  write_values_to_file(solution_values, outputBuffer.data(), nFloats);
+  nbody::write_values_to_file(solution_values, outputBuffer.data(), nFloats);
 
   // Free unified memory
   cudaFree(p);
