@@ -13,6 +13,10 @@
   <ItemGroup>
     <CudaCompile Include="01-nbody.cu" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="files.h" />
+    <ClInclude Include="timer.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F6A4692F-EC9B-46E2-8D49-B4BEED0EDC71}</ProjectGuid>
     <RootNamespace>cuda_test</RootNamespace>
